@@ -2,12 +2,12 @@ SIM ?= verilator
 
 TOPLEVEL_LANG ?= verilog
 
-VERILOG_SOURCES = rtl/mux2x1.v
+VERILOG_SOURCES = rtl/register_file.v
 
-TOPLEVEL = mux2x1
+TOPLEVEL = register_file
 
 # MODULE is the basename of the Python test file
-MODULE = tb.tb_mux2x1
+MODULE = tb.tb_register_file
 
 EXTRA_ARGS += --trace --trace-structs --timescale 1ns/1ps
 
