@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1759670198" />
+    <testcase name="tb_register_file" classname="tb.tb_register_file" file="/workspace/register_file/tb/tb_register_file.py" lineno="5" time="0.001628875732421875" sim_time_ns="50.0" ratio_time="30696.018735363" />
+  </testsuite>
+</testsuites>
