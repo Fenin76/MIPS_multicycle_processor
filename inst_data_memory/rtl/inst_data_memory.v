@@ -20,7 +20,7 @@ wire [8:0] masked_addr;
 reg [31:0] inst_mem [depth_inst-1:0];
 reg [31:0] data_mem [depth_data-1:0];
 
-assign masked_addr = i_addr[8:0];
+assign masked_addr = i_addr[10:2];
 
 always @ (posedge i_clk) begin
     if (i_we) begin

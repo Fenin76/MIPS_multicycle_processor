@@ -36,7 +36,7 @@ async def tb_inst_data_memory(dut):
 
 
     await RisingEdge(dut.i_clk)
-    dut.i_addr.value = 1
+    dut.i_addr.value = 4
     await RisingEdge(dut.i_clk)
     await ReadOnly()
     assert dut.inst_mem[1].value.to_unsigned() == 537460739, f"Read {dut.inst_mem[0].value.to_unsigned()}, expected 537460739"
@@ -44,22 +44,22 @@ async def tb_inst_data_memory(dut):
 
 
     await RisingEdge(dut.i_clk)
-    dut.i_addr.value = 10
+    dut.i_addr.value = 12
     dut.i_we.value = 1
     dut.i_wdata.value = 20465783
 
     await RisingEdge(dut.i_clk)
-    dut.i_addr.value = 300
+    dut.i_addr.value = 1200
     dut.i_we.value = 1
     dut.i_wdata.value = 1
 
     await RisingEdge(dut.i_clk)
-    dut.i_addr.value = 10
+    dut.i_addr.value = 12
     dut.i_we.value = 0
     await ReadOnly()
 
     async def test_inst_mem():
-        assert dut.inst_mem[10].value.to_unsigned() == 20465783, f"Read {dut.inst_mem[10].value.to_unsigned()}, expected 20465783"
+        assert dut.inst_mem[3].value.to_unsigned() == 20465783, f"Read {dut.inst_mem[10].value.to_unsigned()}, expected 20465783"
         cocotb.log.info("done inst testing")
     
     async def test_data_mem():
@@ -75,11 +75,11 @@ async def tb_inst_data_memory(dut):
     await cocotb.start_soon(test_read_inst_mem())
 
     await RisingEdge(dut.i_clk)
-    dut.i_addr.value = 10
+    dut.i_addr.value = 12
     dut.i_we.value = 0
     assert dut.o_rdata.value.to_unsigned() == 20465783, f"Read {dut.o_rdata.value.to_unsigned()}, expected 20465783"
 
-    dut.i_addr.value = 300
+    dut.i_addr.value = 1200
     dut.i_we.value = 0
     await Timer(20, unit = "ps")
     assert dut.o_rdata.value.to_unsigned() == 1, f"Read {dut.o_rdata.value.to_unsigned()}, expected 1"

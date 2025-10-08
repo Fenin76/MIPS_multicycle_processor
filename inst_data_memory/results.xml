@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1759822431" />
-    <testcase name="tb_inst_data_memory" classname="tb.tb_inst_data_memory" file="/workspace/units/inst_data_memory/tb/tb_inst_data_memory.py" lineno="7" time="0.009911298751831055" sim_time_ns="2070.0" ratio_time="208852.5481705997" />
+    <property name="random_seed" value="1759916076" />
+    <testcase name="tb_inst_data_memory" classname="tb.tb_inst_data_memory" file="/workspace/units/inst_data_memory/tb/tb_inst_data_memory.py" lineno="7" time="0.013676643371582031" sim_time_ns="2070.0" ratio_time="151352.92657415802" />
   </testsuite>
 </testsuites>
