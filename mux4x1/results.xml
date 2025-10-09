@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1760038739" />
+    <testcase name="all_tests" classname="tb.tb_mux4x1" file="/workspace/units/mux4x1/tb/tb_mux4x1.py" lineno="13" time="0.0010342597961425781" sim_time_ns="150.0" ratio_time="145031.25864453666" />
+  </testsuite>
+</testsuites>
