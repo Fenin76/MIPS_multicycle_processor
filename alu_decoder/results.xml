@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1760535391" />
+    <testcase name="tb_alu_decorder" classname="tb.tb_alu_decoder" file="/workspace/units/alu_decoder/tb/tb_alu_decoder.py" lineno="4" time="0.0009014606475830078" sim_time_ns="13.0" ratio_time="14421.039936524729" />
+  </testsuite>
+</testsuites>
