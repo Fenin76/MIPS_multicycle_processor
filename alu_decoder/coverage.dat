@@ -1,0 +1,40 @@
+# SystemC::Coverage-3
+C 'frtl/alu_decoder.vl10n18ttogglepagev_toggle/alu_decoderoo_aluctrl[0]:0->1halu_decoder' 3
+C 'frtl/alu_decoder.vl10n18ttogglepagev_toggle/alu_decoderoo_aluctrl[0]:1->0halu_decoder' 2
+C 'frtl/alu_decoder.vl10n18ttogglepagev_toggle/alu_decoderoo_aluctrl[1]:0->1halu_decoder' 4
+C 'frtl/alu_decoder.vl10n18ttogglepagev_toggle/alu_decoderoo_aluctrl[1]:1->0halu_decoder' 3
+C 'frtl/alu_decoder.vl10n18ttogglepagev_toggle/alu_decoderoo_aluctrl[2]:0->1halu_decoder' 3
+C 'frtl/alu_decoder.vl10n18ttogglepagev_toggle/alu_decoderoo_aluctrl[2]:1->0halu_decoder' 3
+C 'frtl/alu_decoder.vl22n1tlinepagev_line/alu_decoderoblockS22halu_decoder' 27
+C 'frtl/alu_decoder.vl23n5tbranchpagev_branch/alu_decoderoifS23-24halu_decoder' 16
+C 'frtl/alu_decoder.vl23n6tbranchpagev_branch/alu_decoderoelseS34-35halu_decoder' 11
+C 'frtl/alu_decoder.vl25n19tlinepagev_line/alu_decoderocaseS25halu_decoder' 2
+C 'frtl/alu_decoder.vl26n19tlinepagev_line/alu_decoderocaseS26halu_decoder' 2
+C 'frtl/alu_decoder.vl27n19tlinepagev_line/alu_decoderocaseS27halu_decoder' 2
+C 'frtl/alu_decoder.vl28n19tlinepagev_line/alu_decoderocaseS28halu_decoder' 2
+C 'frtl/alu_decoder.vl29n19tlinepagev_line/alu_decoderocaseS29halu_decoder' 2
+C 'frtl/alu_decoder.vl30n19tlinepagev_line/alu_decoderocaseS30halu_decoder' 2
+C 'frtl/alu_decoder.vl31n19tlinepagev_line/alu_decoderocaseS31halu_decoder' 2
+C 'frtl/alu_decoder.vl32n9tlinepagev_line/alu_decoderocaseS32halu_decoder' 2
+C 'frtl/alu_decoder.vl35n30texprpagev_expr/alu_decodero((i_aluop == 2'h0)==0) => 0halu_decoder' 5
+C 'frtl/alu_decoder.vl35n30texprpagev_expr/alu_decodero((i_aluop == 2'h0)==1) => 1halu_decoder' 6
+C 'frtl/alu_decoder.vl35n42tbranchpagev_branch/alu_decoderocond_thenS35halu_decoder' 6
+C 'frtl/alu_decoder.vl35n43tbranchpagev_branch/alu_decoderocond_elsehalu_decoder' 5
+C 'frtl/alu_decoder.vl35n69tbranchpagev_branch/alu_decoderocond_thenS35halu_decoder' 2
+C 'frtl/alu_decoder.vl35n70tbranchpagev_branch/alu_decoderocond_elseS35halu_decoder' 3
+C 'frtl/alu_decoder.vl7n13ttogglepagev_toggle/alu_decoderoi_aluop[0]:0->1halu_decoder' 2
+C 'frtl/alu_decoder.vl7n13ttogglepagev_toggle/alu_decoderoi_aluop[0]:1->0halu_decoder' 1
+C 'frtl/alu_decoder.vl7n13ttogglepagev_toggle/alu_decoderoi_aluop[1]:0->1halu_decoder' 2
+C 'frtl/alu_decoder.vl7n13ttogglepagev_toggle/alu_decoderoi_aluop[1]:1->0halu_decoder' 1
+C 'frtl/alu_decoder.vl8n13ttogglepagev_toggle/alu_decoderoi_funct[0]:0->1halu_decoder' 3
+C 'frtl/alu_decoder.vl8n13ttogglepagev_toggle/alu_decoderoi_funct[0]:1->0halu_decoder' 2
+C 'frtl/alu_decoder.vl8n13ttogglepagev_toggle/alu_decoderoi_funct[1]:0->1halu_decoder' 2
+C 'frtl/alu_decoder.vl8n13ttogglepagev_toggle/alu_decoderoi_funct[1]:1->0halu_decoder' 1
+C 'frtl/alu_decoder.vl8n13ttogglepagev_toggle/alu_decoderoi_funct[2]:0->1halu_decoder' 3
+C 'frtl/alu_decoder.vl8n13ttogglepagev_toggle/alu_decoderoi_funct[2]:1->0halu_decoder' 2
+C 'frtl/alu_decoder.vl8n13ttogglepagev_toggle/alu_decoderoi_funct[3]:0->1halu_decoder' 1
+C 'frtl/alu_decoder.vl8n13ttogglepagev_toggle/alu_decoderoi_funct[3]:1->0halu_decoder' 0
+C 'frtl/alu_decoder.vl8n13ttogglepagev_toggle/alu_decoderoi_funct[4]:0->1halu_decoder' 0
+C 'frtl/alu_decoder.vl8n13ttogglepagev_toggle/alu_decoderoi_funct[4]:1->0halu_decoder' 0
+C 'frtl/alu_decoder.vl8n13ttogglepagev_toggle/alu_decoderoi_funct[5]:0->1halu_decoder' 1
+C 'frtl/alu_decoder.vl8n13ttogglepagev_toggle/alu_decoderoi_funct[5]:1->0halu_decoder' 0

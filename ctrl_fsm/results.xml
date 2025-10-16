@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1760620154" />
+    <testcase name="tb_register_file" classname="tb.tb_ctrl_fsm" file="/workspace/units/ctrl_fsm/tb/tb_ctrl_fsm.py" lineno="15" time="0.008126974105834961" sim_time_ns="260.0" ratio_time="31992.226948690117" />
+  </testsuite>
+</testsuites>

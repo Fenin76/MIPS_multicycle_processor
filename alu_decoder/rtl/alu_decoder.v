@@ -1,8 +1,8 @@
 `timescale 1ns / 1ps
 
 module alu_decoder(i_aluop,
-                    i_funct,
-                    o_aluctrl);
+                   i_funct,
+                   o_aluctrl);
 
 input [1:0] i_aluop;
 input [5:0] i_funct;
@@ -20,7 +20,7 @@ parameter SLT  = 3'b111;
 
 
 always @ (*) begin
-    if(i_aluop == 2'b11) begin
+    if(i_aluop == 2'b10) begin
         case(i_funct) 
         6'b100000 : o_aluctrl = ADD;
         6'b100010 : o_aluctrl = SUB;
@@ -32,7 +32,8 @@ always @ (*) begin
         default : o_aluctrl = NOP;
         endcase
     end else begin
-        o_aluctrl = (i_aluop == 2'b01) ? SUB : ADD;
+        o_aluctrl = (i_aluop == 2'b00) ? ADD : (i_aluop == 2'b01) ? SUB : NOP;
+
     end
 
 end
