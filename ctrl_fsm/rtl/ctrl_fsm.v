@@ -58,7 +58,7 @@ parameter ADDI = 6'b001000;
 parameter JMP = 6'b000010;
 
 always @ (posedge i_clk) begin
-  if (!i_reset) begin
+  if (i_reset) begin
     current_state <= IDLE;
   end else begin
     current_state <= next_state;

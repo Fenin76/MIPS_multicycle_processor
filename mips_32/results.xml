@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1760687513" />
+    <testcase name="tb_datapath" classname="tb.tb_mips_32" file="/workspace/units/mips_32/tb/tb_mips_32.py" lineno="5" time="0.012331008911132812" sim_time_ns="530.0" ratio_time="42981.07347254447" />
+  </testsuite>
+</testsuites>

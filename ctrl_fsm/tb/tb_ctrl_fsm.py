@@ -22,12 +22,12 @@ async def tb_register_file(dut):
     cocotb.start_soon(clock.start())
     cocotb.log.info("Clock started")
     
-    dut.i_reset.value = 0
+    dut.i_reset.value = 1
     await Timer(2, unit="ns")
     await RisingEdge(dut.i_clk)
 
     
-    dut.i_reset.value = 1
+    dut.i_reset.value = 0
     await RisingEdge(dut.i_clk)
 
 

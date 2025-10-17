@@ -25,7 +25,7 @@ C 'frtl/ctrl_fsm.vl19n7ttogglepagev_toggle/ctrl_fsmoi_clk:0->1hctr
 C 'frtl/ctrl_fsm.vl19n7ttogglepagev_toggle/ctrl_fsmoi_clk:1->0hctrl_fsm' 26
 C 'frtl/ctrl_fsm.vl194n14tlinepagev_line/ctrl_fsmocaseS194-197hctrl_fsm' 5
 C 'frtl/ctrl_fsm.vl20n7ttogglepagev_toggle/ctrl_fsmoi_reset:0->1hctrl_fsm' 1
-C 'frtl/ctrl_fsm.vl20n7ttogglepagev_toggle/ctrl_fsmoi_reset:1->0hctrl_fsm' 0
+C 'frtl/ctrl_fsm.vl20n7ttogglepagev_toggle/ctrl_fsmoi_reset:1->0hctrl_fsm' 1
 C 'frtl/ctrl_fsm.vl200n9tlinepagev_line/ctrl_fsmocaseS200-213hctrl_fsm' 0
 C 'frtl/ctrl_fsm.vl21n13ttogglepagev_toggle/ctrl_fsmoi_opcode[0]:0->1hctrl_fsm' 1
 C 'frtl/ctrl_fsm.vl21n13ttogglepagev_toggle/ctrl_fsmoi_opcode[0]:1->0hctrl_fsm' 1
@@ -88,8 +88,6 @@ C 'frtl/ctrl_fsm.vl37n11ttogglepagev_toggle/ctrl_fsmonext_state[3]:1
 C 'frtl/ctrl_fsm.vl60n1tlinepagev_line/ctrl_fsmoblockS60hctrl_fsm' 27
 C 'frtl/ctrl_fsm.vl61n3tbranchpagev_branch/ctrl_fsmoifS61-62hctrl_fsm' 2
 C 'frtl/ctrl_fsm.vl61n4tbranchpagev_branch/ctrl_fsmoelseS63-64hctrl_fsm' 25
-C 'frtl/ctrl_fsm.vl61n7texprpagev_expr/ctrl_fsmo(i_reset==0) => 1hctrl_fsm' 2
-C 'frtl/ctrl_fsm.vl61n7texprpagev_expr/ctrl_fsmo(i_reset==1) => 0hctrl_fsm' 25
 C 'frtl/ctrl_fsm.vl68n1tlinepagev_line/ctrl_fsmoblockS68-81hctrl_fsm' 142
 C 'frtl/ctrl_fsm.vl82n14tlinepagev_line/ctrl_fsmocaseS82-95hctrl_fsm' 12
 C 'frtl/ctrl_fsm.vl98n15tlinepagev_line/ctrl_fsmocaseS98-106hctrl_fsm' 39
