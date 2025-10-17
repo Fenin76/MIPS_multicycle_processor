@@ -56,7 +56,7 @@ unit/
 
 3. External I/O can be added (in the future) via memory-mapped addresses.
 
-###Future possible Work
+### Future possible Work
 
 - Add pipelining to increase throughput
 
