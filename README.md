@@ -1,6 +1,7 @@
 # MIPS_processor
 
-A 32-bit multi-cycle MIPS processor implemented in RTL. Currently non-pipelined, with plans to add pipelining in the future. Designed for educational and verification purposes using Verilator and Cocotb.
+A 32-bit multi-cycle MIPS processor implemented in RTL. The processor architecture is based on the Multi-cycle MIPS design described in Digital Design and Computer Architecture by Sarah Harris and David Money Harris.
+Additional R-type instructions and a verification environment were implemented independently. Currently non-pipelined, with plans to add pipelining in the future. Designed for educational and verification purposes using Verilator and Cocotb.
 
 ## Features
 
