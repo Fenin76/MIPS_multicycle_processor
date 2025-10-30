@@ -4,7 +4,7 @@ A 32-bit multi-cycle MIPS processor implemented in RTL. The processor architectu
 Additional R-type instructions and a verification environment were implemented independently. Currently non-pipelined, with plans to add pipelining in the future. Designed for educational and verification purposes using Verilator and Cocotb.
 
 ## Block Diagram
-![MIPS Multicycle Block Diagram](docs/mips_block.png)
+![MIPS Multicycle Block Diagram](mips_block.png)
 
 
 ## Features
