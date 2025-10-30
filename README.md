@@ -3,6 +3,10 @@
 A 32-bit multi-cycle MIPS processor implemented in RTL. The processor architecture is based on the Multi-cycle MIPS design described in Digital Design and Computer Architecture by Sarah Harris and David Money Harris.
 Additional R-type instructions and a verification environment were implemented independently. Currently non-pipelined, with plans to add pipelining in the future. Designed for educational and verification purposes using Verilator and Cocotb.
 
+## Block Diagram
+![MIPS Multicycle Block Diagram](docs/mips_block.png)
+
+
 ## Features
 
 - 32-bit MIPS instruction set (subset)
