@@ -6,3 +6,4 @@ so 1 instruction is 32 bit so 4 bytes
 instructions can be stored
 
 and 256 of 32 bit data can also be stored
+this is made not using macros so you can better do rtl logic test
